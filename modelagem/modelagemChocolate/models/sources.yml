@@ -1,0 +1,99 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Tabelas brutas do banco de dados (fonte original)"
+    schema: public
+    tables:
+      - name: sales
+        description: "Tabela de vendas registradas"
+        columns:
+          - name: order_id
+            description: "Id unico da venda"
+
+          - name: order_date
+            description: "Data da venda"
+          
+          - name: product_id
+            description: "Id do produto vendido"
+          
+          - name: store_id
+            description: "Id da loja onde o produto foi vendido"
+          
+          - name: customer_id
+            description: "Id de quem comprou o produto"
+          
+          - name: quantity
+            description: "Qauntidade vendida"
+          
+          - name: unit_price
+            description: "Preço unitario"
+          
+          - name: discount
+            description: "Desconto aplicado à transação"
+          
+          - name: revenue
+            description: "Receita total após o desconto"
+          
+          - name: cost
+            description: "Custo estimado do produto"
+          
+          - name: profit
+            description: "Lucro da transação"
+
+      - name: customers
+        description: "Tabela de compradores regitrados"
+        columns: 
+          - name: customer_id
+            description: "Id unico de indentificação do comprador"
+          
+          - name: age 
+            description: "Idade do comprador"
+          
+          - name: gender
+            description: "Genero do comprador"
+          
+          - name: loyalty_member
+            description: "Se é membro fiel"
+
+          - name: join_date
+            description: "Data de entrada"
+      
+      - name: products 
+        description: "Tabela de produtos registrados"
+        columns:
+          - name: product_id
+            description: "Id unico de indentificação do produto"
+
+          - name: product_name
+            description: "Nome do produto"
+          
+          - name: brand
+            description: "Marca"
+  
+          - name: category
+            description: "Tipo do chocolate"
+          
+          - name: cocoa_percent
+            description: "Percentual de cacau"
+           
+          - name: weight_g
+            description: "Peso"
+            
+      - name: stores
+        description: "Tabela de lojas registradas"
+        columns: 
+          - name: store_id
+            description: "Id unico de indentificação da loja"
+          
+          - name: store_name
+            description: "Nome da loja"
+          
+          - name: city
+            description: "Cidade em que a loja esta"
+          
+          - name: country
+            description: "Pais em que a loja esta"
+          
+          - name: store_type
+            description: "Onde a loja fica"

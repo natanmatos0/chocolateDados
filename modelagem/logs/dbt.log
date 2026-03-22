@@ -1,0 +1,40 @@
+[0m19:24:07.573301 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 19:24:07.667558 | 374fc5eb-e868-467f-b5b0-860ff834172a ==============================
+[0m19:24:07.667558 [info ] [MainThread]: Running with dbt=1.11.7
+[0m19:24:07.668223 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\natan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:24:32.495447 [debug] [MainThread]: Starter project path: C:\chocolateDados\modelagem\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:24:32.526377 [info ] [MainThread]: 
+Your new dbt project "modelagemChocolate" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:24:32.527120 [info ] [MainThread]: Setting up your profile.
+[0m19:25:43.546598 [info ] [MainThread]: Profile modelagemChocolate written to C:\Users\natan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:25:43.566578 [debug] [MainThread]: Command `dbt init` succeeded at 19:25:43.563674 after 96.03 seconds
+[0m19:25:43.577105 [debug] [MainThread]: Flushing usage events
+[0m19:35:06.600212 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 19:35:06.700979 | b14ce919-f266-47b7-b032-a9d887cdb908 ==============================
+[0m19:35:06.700979 [info ] [MainThread]: Running with dbt=1.11.7
+[0m19:35:06.701839 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\natan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:35:06.702262 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\chocolateDados\modelagem\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:35:06.703126 [debug] [MainThread]: Command `dbt run` failed at 19:35:06.703016 after 0.18 seconds
+[0m19:35:06.703393 [debug] [MainThread]: Flushing usage events
