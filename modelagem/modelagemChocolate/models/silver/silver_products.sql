@@ -1,5 +1,6 @@
 select
   p.product_id,
+  p.product_name,
   trim(p.product_name),
   upper(p.brand) as brand,
   category,
