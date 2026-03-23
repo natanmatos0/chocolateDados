@@ -48,13 +48,8 @@ models:
 
     gold:
       +materialized: table
+      +schema: gold
       +tags: ["gold", "kpi", "metrics"]
       +meta:
         modeling_layer: gold
-      sales:
-        +schema: gold_sales
-      customer_success:
-        +schema: gold_cs
-      pricing:
-        +schema: gold_pricing
 

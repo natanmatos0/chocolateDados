@@ -1,7 +1,6 @@
 select
   p.product_id,
-  p.product_name,
-  trim(p.product_name),
+  trim(p.product_name) as product_name,
   upper(p.brand) as brand,
   category,
   cast(p.cocoa_percent as integer) as cocoa_percent,
