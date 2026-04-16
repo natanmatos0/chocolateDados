@@ -10,7 +10,7 @@ Este projeto demonstra uma pipeline de dados ponta a ponta (End-to-End), realiza
 2.  **Transformação (dbt):**
     * **Camada Bronze:** Espelhamento dos dados brutos com definições de fontes (`sources`).
     * **Camada Silver:** Limpeza de dados, cast de tipos (datas, decimais), tratamento de nulos e padronização.
-    * **Camada Gold (Em breve):** Tabelas de negócio (Fatos e Dimensões) prontas para BI.
+    * **Camada Gold:** Tabelas de negócio (Fatos e Dimensões) prontas para BI.
 
 ---
 

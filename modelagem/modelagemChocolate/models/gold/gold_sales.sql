@@ -26,4 +26,5 @@ select
   end as margin_percentage
 from sales as v
 left join products as p on v.product_id = p.product_id
-left join stores as s on v.store_id = s.store_id
+left join stores as s on v.store_id = s.store_id 
+
